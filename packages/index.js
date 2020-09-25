@@ -12,6 +12,7 @@ import MetaInfo from './meta-info/index'
 import WAlert from './alert/index'
 import WLoadingBar from './loading-bar/index'
 import Skeleton from './skeleton/index'
+import XxwProgress from './progress/index'
 
 const components = [
   WButton,
@@ -21,7 +22,8 @@ const components = [
   WShowMore,
   WLimitTextArea,
   WAlert,
-  Skeleton
+  Skeleton,
+  XxwProgress
 ]
 
 const install = function(Vue) {
@@ -46,5 +48,6 @@ export default {
   MetaInfo,
   WAlert,
   WLoadingBar,
-  Skeleton
+  Skeleton,
+  XxwProgress
 }

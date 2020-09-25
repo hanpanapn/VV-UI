@@ -50,6 +50,11 @@
           "desc": "Tag 标签",
           "name": "tag",
           "path": "/tag"
+        },
+        {
+          "desc": "Progress 进度条",
+          "name": "progress",
+          "path": "/progress"
         }
       ]
     },
